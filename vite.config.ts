@@ -9,6 +9,15 @@ export default defineConfig(({ mode }) => {
         port: 3000,
         host: '0.0.0.0',
       },
+      preview: {
+        host: '0.0.0.0',
+        port: process.env.PORT || 4173,
+        strictPort: false,
+        allowedHosts: [
+          'toto-care.onrender.com',
+          '.onrender.com'
+        ]
+      },
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
