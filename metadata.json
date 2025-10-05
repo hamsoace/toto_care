@@ -1,0 +1,5 @@
+{
+  "name": "TotoCare - Mother & Child Health Companion",
+  "description": "A React-based web application designed to digitize Kenya's Ministry of Health Mother-Child Health Handbook, providing digital tracking, gamification, and real-time alerts for parents.",
+  "requestFramePermissions": []
+}
